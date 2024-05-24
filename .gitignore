@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/VotingApp_Screenshots_files
+/VotingApp_Screenshots.htm
+/Web Page Screenshots.odt
+/WebPage_Screenshots.docx
