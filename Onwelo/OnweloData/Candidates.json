@@ -1,1 +1,28 @@
-[{"CandidateId":"VDFGERT23456","CandidateName":"Joseph R. Biden Jr.","PartyName":"Democrats"},{"CandidateId":"WS1DAD9A8F","CandidateName":"Marianne Williamson","PartyName":"Democrats"},{"CandidateId":"0D1DAD9A6F","CandidateName":"Donald J. Trump","PartyName":"Republicans"},{"CandidateId":"C185A8C3E4","CandidateName":"Robert F. Kennedy Jr.","PartyName":"Independent "},{"CandidateId":"710FE78527","CandidateName":"Cornel West","PartyName":"Independent "}]
+[
+  {
+    "CandidateId": "VDFGERT23456",
+    "CandidateName": "Jarosław Kaczyński",
+    "PartyName": "Prawo i Sprawiedliwość"
+  },
+  {
+    "CandidateId": "WS1DAD9A8F",
+    "CandidateName": "Donald Tusk",
+    "PartyName": "Platforma Obywatelska"
+  },
+  {
+    "CandidateId": "0D1DAD9A6F",
+    "CandidateName": "Marcin Ociepa",
+    "PartyName": "OdNowa RP"
+  },
+  {
+    "CandidateId": "C185A8C3E4",
+    "CandidateName": "Barbara Nowacka",
+    "PartyName": "Inicjatywa Polska"
+  },
+  {
+    "CandidateId": "710FE78527",
+    "CandidateName": "Zbigniew Ziobro",
+    "PartyName": "Suwerenna Polska"
+  }
+
+]
