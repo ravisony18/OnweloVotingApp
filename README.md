@@ -1,9 +1,9 @@
-Hi Dear,
+Dear,
 
-This is a web based application for Onwelo Client assignment. 
-I have following information to undertsnad the reader for this application.
+This is a web based application for Onwelo client assignment. 
+I have mentioned below information to undertsnad this application.
 
-No database connection. Only using followings json file to store/update the information.
+No database. Only using followings json file to store/update the information.
    1. Candidates.json (to capture the candidate information)
    2. Voters.json (to capture the voters information)
    3. Votes.json (to capture the voting information)
