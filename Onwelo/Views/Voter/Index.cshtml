@@ -1,0 +1,54 @@
+﻿@model IEnumerable<OnWelo.Models.Models.Voter>
+
+@{
+    ViewData["Title"] = "List of the Voters";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of the Voters</h2>
+
+<p>
+    <a asp-action="Create">
+        Add New Voter <i class="fa fa-plus-circle"></i>
+    </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VoterId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VoterName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HasVoted)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    @if(Model != null)
+    {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VoterId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VoterName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HasVoted)
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">No Records found !!</td>
+            </tr>
+        }
+    </tbody>
+</table>

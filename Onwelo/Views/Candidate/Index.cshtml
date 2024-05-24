@@ -1,0 +1,53 @@
+﻿@model IEnumerable<OnWelo.Models.Models.Candidate>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>List of Candidates</h3>
+
+<p>
+    <a asp-action="Create">
+        Add New Candidate <i class="fa fa-plus-circle"></i></a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CandidateId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CandidateName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PartyName)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CandidateId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CandidateName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PartyName)
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No Records found !!</td>
+            </tr>
+        }
+    </tbody>
+</table>

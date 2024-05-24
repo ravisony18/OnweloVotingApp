@@ -1,0 +1,37 @@
+[
+  {
+    "VoterId": "67506BFB10",
+    "VoterName": "James Smith",
+    "HasVoted": false
+  },
+  {
+    "VoterId": "67506BXW10",
+    "VoterName": "Maria Garcia",
+    "HasVoted": false
+  },
+  {
+    "VoterId": "67888BFB10",
+    "VoterName": "Maria Hernandez",
+    "HasVoted": false
+  },
+  {
+    "VoterId": "63326BFB10",
+    "VoterName": "Robert Smith",
+    "HasVoted": false
+  },
+  {
+    "VoterId": "CFCA2E915F",
+    "VoterName": "Maria Rodriguez",
+    "HasVoted": false
+  },
+  {
+    "VoterId": "F038C632BB",
+    "VoterName": "Robert Johnson",
+    "HasVoted": false
+  },
+  {
+    "VoterId": "B4D8C7C42D",
+    "VoterName": "Mary Smith",
+    "HasVoted": false
+  }
+]

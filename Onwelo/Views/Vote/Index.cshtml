@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Vote !</h1>
+<div>
+    <p>This is voting page. </p>
+    <p>Please elect your candidate.</p>
+     <form asp-action="Create">
+    <div class="input-group">
+        <span class="input-group-text">I am</span>
+        <select name="ddlVotersName" id="ddlVotersId"  class="f-input" asp-items="@ViewBag.Voters">
+            <option value="0">Select</option>
+        </select>
+    </div>
+    <p></p>
+    <div class="input-group">
+        <span class="input-group-text">I vote for</span>
+        <select name="ddlCandidatesName" id="ddlCandidatesId" class="f-input" asp-items="@ViewBag.Candidates">
+            <option value="0">Select</option>
+        </select>
+    </div>
+    <p></p>
+    <div class="input-group" style="width:20%">
+        <button type="submit">Submit </button>
+    </div>
+</form>
+</div>
+<p></p>
+<div>
+    <a asp-action="Details">Candidate Results</a>
+</div>

@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row text-center">
+    <h1 class="display-4">Welcome To Onwelo voting app</h1>
+    <div class="card">
+        <img src="Images/Voters.png" alt="Voters" style="width:100%">
+        <h1>VOTERS</h1>
+        <p class="title">Add New Voters</p>
+        <p>
+            <form asp-action="Index" asp-controller="Voter">
+                <button type="submit">Add Voter</button>
+            </form>
+         </p>
+    </div>
+
+    <div class="card">
+        <img src="Images/Candidate.png" alt="Canddate" style="width:100%">
+        <h1>CANDIDATES</h1>
+        <p class="title">Add New Candidates</p>
+        <p>
+            <form asp-action="Index" asp-controller="Candidate">
+                <button type="submit">Add Candidate</button>
+            </form>
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="Images/Vote.png" alt="Vote" style="width:100%">
+        <h1>VOTE!</h1>
+        <p class="title">Elect Your Canddate</p>
+        <p>
+            <form asp-action="Index" asp-controller="Vote">
+                <button type="submit">Cast Vote</button>
+            </form>
+        </p>
+    </div>
+
+</div>
